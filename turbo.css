@@ -1,0 +1,148 @@
+#description h1{
+    font-family: 'Oswald',sans-serif;
+    font-size: 4rem;
+    padding: 2rem;
+    margin:2rem;
+    border-bottom: 2px solid rgb(153, 153, 153);
+}
+
+#description p{
+    font-family: 'Montserrat',san-serif;
+    padding: 2rem;
+    font-size: 1.3rem;
+
+}
+
+#description h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+   
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+#specification h2{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem;
+    padding-left:0;
+    margin: 2rem;
+    border-top: 2px solid rgb(153, 153, 153);
+}
+
+#first{
+    display: flex;
+    justify-content: space-around;
+    margin:2rem;
+    padding:2rem;
+    background-color: rgb(231, 231, 231);
+    border-radius: 4px;
+    margin-bottom: 6rem;
+}
+
+.specs {
+    margin:0;
+    padding:2rem;
+    
+}
+
+.specs h3{
+    font-family:'Montserrat',sans-serif;
+    font-size: 1.2rem;
+    color:rgb(46, 46, 46)
+}
+
+.ans{
+    background-color: rgb(210, 210, 210);
+    border-radius: 4px;
+
+}
+
+.ans h3{
+    color: rgb(69, 69, 69);
+    font-weight:600;
+    
+}
+
+.ans h3,.que h3{
+    padding: 0.8rem;
+}
+
+#description img{
+    width: 300px;
+    float: right;
+    transform:translateY(-50px);
+}
+
+#galleryturbos h2{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem;
+    padding-left:0;
+    margin: 2rem;
+    border-top: 2px solid rgb(153, 153, 153);
+}
+
+#carouselExampleFade{
+    width: 1000px; 
+    margin-bottom: 4rem;  
+    
+
+}
+
+#carouselExampleFade img{
+    border-radius: 7px;
+}
+
+
+#galleryturbos{
+    border-bottom: 2px solid rgb(153,153,153);
+    margin-bottom: 5rem;
+}
+
+#turbopadd{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+@media(max-width: 600px){
+
+
+    #description h1{
+        font-size: 3rem;
+    }
+
+    #description h2{
+        font-size: 1.5rem;
+    }
+
+    #description p{
+        font-size: 1rem;
+    }
+
+    #specification h2{
+        font-size: 1.5rem;
+    }
+
+    .specs h3{
+        font-size: 1rem;
+    }
+
+    #galleryturbos h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 400px){
+    .specs h3{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,292 @@
+
+
+.logoo{
+    width:170px;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.navbar-collapse{
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding-right: 8rem;
+}
+
+.nav-link{
+    
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.3rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-right: 2rem;
+}
+
+.nav-link:hover{
+    color: rgb(255, 0, 0);
+}
+
+.container-fluid {
+    background-color: #ffffff;
+    
+    
+}
+
+.background-image{
+    background-image: url(/photos/porsche\ 911\ turbo\ photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+
+}
+
+.navbar{
+    padding:0;
+}
+
+#mainimage{
+    background-size: cover;
+    width: 100%;
+    position:relative;
+    
+}
+
+
+#imagecontainer{
+    margin:0;
+    padding:0;
+    
+}
+
+#heading p {
+    font-size : 2rem;
+    font-family : 'Montserrat',sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: -5rem;
+    padding: 2rem;
+    border-top: 1px solid rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+
+
+#history h2{
+    
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+#history p{
+    font-family : 'Montserrat',san-serif;
+    font-size:1.3rem;
+    padding:2rem;
+    
+}
+
+.dropdown-item{
+    font-family: 'Montserrat',san-serif;
+    font-size:1.2em;
+    padding-top:1em;
+    padding-bottom:0.7em;
+    transition: font-size 0.3s;
+}
+
+.dropdown-item:hover{
+    color:rgb(255, 0, 0);
+    font-size:1.23rem;
+}
+
+#type901{
+    width:800px;
+    float:left;
+    margin-top:0;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+#porsche911s{
+    width: 800px;
+    float:right;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.porsche911s{
+    float: right;
+}
+
+#history{
+    margin-bottom: 5rem;
+}
+
+.dropdown-item:focus{
+    background-color: rgb(220, 220, 220);
+}
+
+.icons{
+    width:20px;
+    margin-right: 10px;
+}
+
+.icons2{
+    width: 20px;
+    margin-right: 10px;
+}
+
+#makesmall{
+    font-size: 0.9rem;
+}
+
+#marginless{
+    padding-bottom:1rem;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    margin-bottom: -6rem;
+
+}
+
+#motorr h2{
+    
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding: 1rem;
+    margin-left: 2rem;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    
+}
+
+#motorr h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color:rgb(93, 93, 93)
+}
+
+#motorsports .righttext{
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+    justify-content: left;
+
+}
+
+#race1{
+    border-radius: 10px;
+}
+
+.righttext h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+#history{
+    margin-top:10rem;
+}
+
+.racecar img{
+    width:1000px;
+    margin-top:2rem;
+    border-radius: 10px;
+    
+}
+
+#motorsports p{
+    font-family: 'Montserrat',san-serif;
+    font-size:1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#motopara h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.quote h4{
+    margin-top:2rem;
+}
+
+#motopara h4{
+    font-family: 'Montserrat',san-serif;
+    font-size: 1.3rem;
+    color: rgb(81, 81, 81);
+}
+
+@media(max-width: 600px){
+     #heading p{
+        font-size: 1.5rem;
+     } 
+     
+     #history h2{
+        font-size: 3rem;
+     }
+
+     #motorsports h2{
+        font-size: 3rem;
+     }
+
+     #history p{
+        font-size: 1rem;
+     }
+
+     .righttext h3{
+        font-size: 1.5rem;
+     }
+
+     #motorr h2{
+        font-size: 3rem;
+     }
+}
+
+@media(max-width: 768px){
+    #heading p{
+        font-size: 1.5rem;
+
+    }
+
+    #description img{
+        display: none;
+    }
+    
+}
+
+@media(max-width: 1200px){
+    #porsche911s,#type901{
+        margin-left:0;
+        margin-right:0;
+        width:100%;
+        
+
+    }
+
+    #motorscroll img{
+        padding: 4rem;
+    }
+
+
+
+}
+
+@media(max-width: 1100px){
+    #motopara h4{
+        font-size: 1.3rem;
+        
+    }
+    #motopara h3{
+        font-size: 1.7rem;
+    }
+}
+
+
+
+
+
